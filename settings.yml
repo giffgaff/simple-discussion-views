@@ -1,0 +1,18 @@
+NO_USER_AGENT_STRING: "No user agent passed with request"
+CRAWLER_USER_AGENTS: [
+    'APIs-Google',
+    'Mediapartners-Google',
+    'AdsBot-Google-Mobile',
+    'AdsBot-Google',
+    'Googlebot',
+    'Googlebot-Image',
+    'Googlebot-News',
+    'Googlebot-Video',
+    'AdsBot-Google-Mobile-Apps',
+    'FeedFetcher-Google',
+    'Google-Read-Aloud',
+    'DuplexWeb-Google',
+    'Google Favicon',
+    'googleweblight',
+    'Storebot-Google'
+]

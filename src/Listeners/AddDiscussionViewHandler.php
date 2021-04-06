@@ -32,6 +32,8 @@ class AddDiscussionViewHandler
         $current_discussion->view_count++;
         $current_discussion->save();
 
-        event(new DiscussionWasViewed($actor, $current_discussion, Helpers::getIpAddress(), Helpers::getUserAgentString()));
+        if (Helpers::increaseViewCountForUserAgent(Helpers::getUserAgentString())) {
+            event(new DiscussionWasViewed($actor, $current_discussion, Helpers::getIpAddress(), Helpers::getUserAgentString()));
+        }
     }
 }
