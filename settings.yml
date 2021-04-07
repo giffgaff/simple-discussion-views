@@ -14,5 +14,11 @@ CRAWLER_USER_AGENTS: [
     'DuplexWeb-Google',
     'Google Favicon',
     'googleweblight',
-    'Storebot-Google'
+    'Storebot-Google',
+    'Bingbot',
+    'Slurp',
+    'DuckDuckBot',
+    'facebot',
+    'facebookexternalhit',
+    'ia_archiver'
 ]
